@@ -21,7 +21,7 @@ elif respuesta == 2:
     hufflepuff += 1
     slytherin +=1
 else:
-  print('Respuesta incorrecta.')
+    print('Respuesta incorrecta.')
 
 print('\nP2) Cuando muera, quiero que la gente me recuerde como:')
 
@@ -41,7 +41,7 @@ elif respuesta == 3:
 elif respuesta == 4:
     gryffindor += 2
 else:
-  print('Respuesta incorrecta.')
+    print('Respuesta incorrecta.')
 
 print('\nQ3) ¿Que tipo de instrumento complace mas tu oido?')
 
