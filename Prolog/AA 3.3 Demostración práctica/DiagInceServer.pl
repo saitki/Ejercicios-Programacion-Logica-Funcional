@@ -1,6 +1,7 @@
 % Declarar que `hecho/1` es un predicado dinámico
 :- dynamic hecho/1.
 % retractall(hecho(_)).  % Limpia todos los hechos
+% assert(hecho(tokens_invalidos)).
 
 hecho(alta_tasa_intentos_login).
 hecho(misma_ip_repetida).
